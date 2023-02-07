@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../configServer/configServer/configServer.iml" filepath="$PROJECT_DIR$/../configServer/configServer/configServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecommerce/ecommerce.iml" filepath="$PROJECT_DIR$/ecommerce/ecommerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../orderService/orderService/orderService.iml" filepath="$PROJECT_DIR$/../orderService/orderService/orderService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productService/productservice.iml" filepath="$PROJECT_DIR$/productService/productservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../serviceRegistery/serviceRegistery/serviceRegistery.iml" filepath="$PROJECT_DIR$/../serviceRegistery/serviceRegistery/serviceRegistery.iml" />
+    </modules>
+  </component>
+</project>
