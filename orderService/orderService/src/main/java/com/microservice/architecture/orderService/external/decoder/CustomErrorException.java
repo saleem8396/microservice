@@ -15,6 +15,11 @@ public class CustomErrorException implements ErrorDecoder {
     public Exception decode(String s, Response response) {
         log.info("::{}",response.request());
         log.info("::{}",response.headers());
+        try {
+            log.info(" response body {}",response.body().asInputStream());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         ObjectMapper objectMapper=new ObjectMapper();
         try {
             ErrorMessage errorMessage=objectMapper.readValue(response.body().asInputStream(),ErrorMessage.class);
